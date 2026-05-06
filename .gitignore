@@ -1,0 +1,30 @@
+﻿# Credentials â€” never commit
+credentials.txt
+*.credentials
+secrets.*
+.env
+.env.*
+!.env.example
+
+# Affinity Designer lock files
+*.af~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor artifacts
+*.swp
+*~
+.idea/
+.vscode/
+
+# Standardized local working data
+working/*
+!working/.gitkeep
+*.tmp
+*.bak
+*.scratch.*
+

@@ -1,0 +1,8 @@
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Style/CommentedKeyword:
+  Enabled: false
