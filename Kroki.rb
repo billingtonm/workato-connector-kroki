@@ -1,7 +1,7 @@
 {
   # Connector: (c) Innovation Quotient Pty Ltd Australia, 2026
   # Author: Matthew Billington
-  title: 'Kroki - Diagram from Code',
+  title: 'Kroki - Diagrams from Code',
 
   # ---------------------------------------------------------------------------
   connection: {
