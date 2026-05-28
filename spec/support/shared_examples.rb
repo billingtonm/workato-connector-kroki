@@ -5,7 +5,7 @@
 # and a shared example for testing the standard behavior of an action (execute, input_fields, output_fields) 
 # using fixtures.
 
-require_relative 'connector'
+require_relative '../connector'
 
 # -----------------------------------------------------------------------------
 RSpec.shared_examples 'returns expected output' do
