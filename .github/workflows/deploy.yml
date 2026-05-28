@@ -1,0 +1,22 @@
+
+
+name: Workato Connector Deployment
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'Kroki.rb'
+
+jobs:
+  deploy-to-workato:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Deploy connector to Workato
+        uses: billingtonm/Workato-Github-Actions/deploy-connector@v1
+        with:
+          connector-file: Kroki.rb
+          workato-base-url: https://www.workato.com
+          api-token: ${{ secrets.WORKATO_DEV_ENVIRONMENT_API_TOKEN }}
