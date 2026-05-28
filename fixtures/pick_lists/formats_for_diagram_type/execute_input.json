@@ -1,4 +1,3 @@
-# Remove this comment before updating. Files that include this line will be overwritten.
 {
-  "diagram_type": "<string_value_required>"
+  "diagram_type": "plantuml"
 }
