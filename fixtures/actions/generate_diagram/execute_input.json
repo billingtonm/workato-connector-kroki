@@ -1,0 +1,5 @@
+{
+  "diagram": "plantuml",
+  "format": "svg",
+  "diagram_definition": "@startuml\nAlice->Bob : Hello\nreturn ok\n@enduml"
+}
