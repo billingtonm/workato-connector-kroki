@@ -1,9 +1,4 @@
-# Remove this comment before updating. Files that include this line will be overwritten.
-# Config fields:
-#   diagram: label: "Diagram Type", hint: "Select the type of diagram to generate", type: string, required, control_type: select, pick_list: diagram_types
-#   format: label: "Output Format", hint: "Select the output format type", type: string, required, control_type: select, pick_list: formats_for_diagram_type
-#
 {
-  "diagram": "<string_value_required>",
-  "format": "<string_value_required>"
+  "diagram": "plantuml",
+  "format": "svg"
 }

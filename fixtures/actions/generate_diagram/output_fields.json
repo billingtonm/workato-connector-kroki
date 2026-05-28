@@ -1,0 +1,12 @@
+[
+  {
+    "name": "url",
+    "label": "URL to output diagram",
+    "type": "string"
+  },
+  {
+    "name": "output",
+    "label": "Output diagram",
+    "type": "string"
+  }
+]

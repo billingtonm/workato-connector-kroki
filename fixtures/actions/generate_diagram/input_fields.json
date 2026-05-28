@@ -1,0 +1,9 @@
+[
+  {
+    "name": "diagram_definition",
+    "label": "Diagram definition",
+    "type": "string",
+    "control_type": "text",
+    "optional": false
+  }
+]
