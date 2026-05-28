@@ -28,4 +28,5 @@ working/*
 *.bak
 *.scratch.*
 .wisco/
-.wisco.json
+tape_library/
+.rspec_status
